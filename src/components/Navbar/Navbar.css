@@ -1,5 +1,5 @@
 .NavbarItems {
-  background: grey;
+  background: #222;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -114,6 +114,9 @@
     transition: 250ms;
   }
   Button {
+    display: none;
+  }
+  #signup-btn {
     display: none;
   }
 }
