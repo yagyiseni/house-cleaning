@@ -7,7 +7,7 @@ import { CleanerProvider } from './context';
 ReactDOM.render(
   <React.StrictMode>
     <CleanerProvider>
-    <Router basename="/WeClean">
+    <Router basename="/house-cleaning">
       <App />
     </Router>
     </CleanerProvider>
